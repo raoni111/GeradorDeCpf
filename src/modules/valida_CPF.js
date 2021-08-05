@@ -28,7 +28,6 @@ export default class ValidaCPF {
         const cpfReduce2 = cpfMult2.reduce( (multiplicador, value) => multiplicador += value);
         let segundoNumero = 11 - (cpfReduce2 % 11);
         if(segundoNumero >= 10) segundoNumero = 0;
-        console.log(segundoNumero)
         cpfArray.push(String(segundoNumero));
         
         return String(cpfArray).replace(/\D+/g, '');
