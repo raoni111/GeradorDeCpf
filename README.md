@@ -4,5 +4,3 @@
 <p>inicialização:</p>
 <p>npm i</p>
 <p>npm run dev</p>
-
-

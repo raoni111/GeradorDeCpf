@@ -1,12 +1,12 @@
 {
-  "name": "aula93",
+  "name": "gerador-de-cpf",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack -w"
   },
-  "author": "",
+  "author": "Raoni",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.6.4",
